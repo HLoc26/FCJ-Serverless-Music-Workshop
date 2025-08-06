@@ -1,0 +1,4 @@
+<details class="spoiler">
+    <summary>{{ .Get "summary" | default "Click to expand" }}</summary>
+    {{ .Inner | markdownify }}
+</details>

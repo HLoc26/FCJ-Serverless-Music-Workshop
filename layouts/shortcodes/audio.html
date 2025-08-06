@@ -1,0 +1,6 @@
+<div style="text-align: center;">
+  <audio controls>
+    <source src="{{ .Get "src" }}" type="{{ with .Get "type" }}{{ . }}{{ else }}audio/mpeg{{ end }}">
+    Your browser does not support the audio element.
+  </audio>
+</div>
