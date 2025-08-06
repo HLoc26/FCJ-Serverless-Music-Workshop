@@ -36,7 +36,7 @@ To view or contribute to this documentation locally:
 
 ## Deployment
 
-This site deployed at [https://hloc26.github.io/FCJ-ServerlessMusic-Workshop](https://hloc26.github.io/FCJ-ServerlessMusic-Workshop)
+This site deployed at [https://hloc26.github.io/FCJ-Serverless-Music-Workshop](https://hloc26.github.io/FCJ-Serverless-Music-Workshop)
 
 ## Author
 
