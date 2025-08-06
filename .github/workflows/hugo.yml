@@ -40,9 +40,11 @@ jobs:
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
       - name: Install Dart Sass
         run: |
-          sudo wget -O /usr/local/bin/sass https://github.com/sass/dart-sass/releases/download/1.90.0/dart-sass-1.90.0-linux-x64.tar.gz
-          sudo tar -xzf dart-sass-1.90.0-linux-x64.tar.gz -C /usr/local/bin --strip-components=1
-          sudo chmod +x /usr/local/bin/sass
+          cd /tmp
+          wget https://github.com/sass/dart-sass/releases/download/1.90.0/dart-sass-1.90.0-linux-x64.tar.gz
+          tar -xzf dart-sass-1.90.0-linux-x64.tar.gz
+          sudo mv dart-sass /usr/local/
+          sudo ln -s /usr/local/dart-sass/sass /usr/local/bin/sass
       - name: Checkout
         uses: actions/checkout@v4
         with:
