@@ -19,7 +19,7 @@ home = [ "HTML", "RSS", "JSON"]
 
 [Languages]
 [Languages.en]
-title = "Deploy Hugo Website with AWS CI/CD Tools"
+title = "Building a simple Serverless Music Streaming Website"
 weight = 1
 languageName = "English"
 
@@ -30,7 +30,7 @@ url = "https://www.facebook.com/groups/awsstudygroupfcj/"
 weight = 20
 
 [Languages.vi]
-title = "Triển khai Hugo Website với bộ công cụ CICD của AWS"
+title = ""
 weight = 2
 languageName = "Tiếng Việt"
 
