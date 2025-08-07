@@ -11,8 +11,8 @@ pre : " <b> 2. </b> "
 Start by cloning the starter repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/music-platform-serverless.git
-cd music-platform-serverless
+git clone https://github.com/HLoc26/FCJ-Serverless-Music.git
+cd FCJ-Serverless-Music
 ```
 
 If you're using a fork, replace the URL with your own.
